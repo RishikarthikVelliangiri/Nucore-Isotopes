@@ -35,12 +35,12 @@ export default function Hero() {
                     </p>
 
                     <div className="flex flex-wrap gap-4">
-                        <button className="flex items-center gap-2 px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:bg-sky-600 transition-all shadow-[0_4px_14px_0_rgba(14,165,233,0.39)] hover:shadow-[0_6px_20px_rgba(14,165,233,0.23)] hover:-translate-y-1">
+                        <a href="#solutions" className="flex items-center gap-2 px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:bg-sky-600 transition-all shadow-[0_4px_14px_0_rgba(14,165,233,0.39)] hover:shadow-[0_6px_20px_rgba(14,165,233,0.23)] hover:-translate-y-1">
                             Our Solution <ArrowRight className="w-4 h-4" />
-                        </button>
-                        <button className="px-8 py-4 bg-white text-slate-700 font-semibold rounded-lg border border-slate-200 hover:bg-slate-50 transition-all">
+                        </a>
+                        <a href="#applications" className="px-8 py-4 bg-white text-slate-700 font-semibold rounded-lg border border-slate-200 hover:bg-slate-50 transition-all">
                             View Isotopes
-                        </button>
+                        </a>
                     </div>
                 </motion.div>
 
